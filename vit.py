@@ -13,7 +13,7 @@ class ViTConfig:
     reg_tokens: int = 0
     n_layers: int = 3
     n_heads: int = 4
-    n_embed: int = 64
+    n_embed: int = 32
     in_chans: int = 3
     dropout: float = 0.0
     device: str = 'cpu'
